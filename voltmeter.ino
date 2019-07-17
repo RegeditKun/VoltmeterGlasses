@@ -37,3 +37,15 @@ void setup(){
   lcd.setCursor(0, 1);
   lcd.print("INPUT V= "); 
 }
+
+void loop(){
+  value = analogRead(analogInput);
+  vout = (value * 5.0) / 1024.0; 
+  vin = vout / (R2 / (R1 + R2));
+
+  lcd.print(vin);
+
+  dtostrf(vin, 5, 2, data);
+  BTserial.write(data);
+  delay(2000);
+}
