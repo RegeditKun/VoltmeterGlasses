@@ -19,3 +19,22 @@ void setup(){
   delay(5000);
   u8x8.clearDisplay();
 }
+
+void loop(){
+u8x8.setFont(u8x8_font_pressstart2p_f);
+u8x8.setCursor(0, 0);
+u8x8.print("Nilai Tegangan");
+u8x8.setCursor(8, 5);
+u8x8.print("Volt");
+  
+  if (BTserial.available() > 0){
+    data = BTserial.read();
+    string += data;
+    u8x8.setFont(u8x8_font_amstrad_cpc_extended_n);
+    u8x8.setCursor(2, 5);
+    u8x8.print(string);    
+    while (string.length() > 4)
+    {string = "";}
+  }
+
+}
