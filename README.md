@@ -10,11 +10,13 @@ Make sure you already setup your Bluetooth on both side and setup your OLED.
 This is my schematic from both section. I'm using [Fritzing](https://fritzing.org/home/).
 
 * Voltmeter
+<div style="display:flex;flex-flow:row-wrap;">
 <img src="https://res.cloudinary.com/palsuasli/image/upload/v1563336972/Project/VoltmeterGlasses/sketsa_voltmeter_schem.jpg" width="200" height="100%"/>
 
 <img src="https://res.cloudinary.com/palsuasli/image/upload/v1563336977/Project/VoltmeterGlasses/sketsa_voltmeter_bb.jpg" width="200" height="100%"/>
 
 * Glasses
+<div style="display:flex;flex-flow:row-wrap;">
 <img src="https://res.cloudinary.com/palsuasli/image/upload/v1563336971/Project/VoltmeterGlasses/sketsa_glasses_schem.jpg" width="200" height="100%"/>
 
 <img src="https://res.cloudinary.com/palsuasli/image/upload/v1563336973/Project/VoltmeterGlasses/sketsa_glasses_bb.jpg" width="200" height="100%"/>
@@ -25,7 +27,7 @@ This is my schematic from both section. I'm using [Fritzing](https://fritzing.or
 Here is some picture of package.
 
 * Voltmeter
-
+<div style="display:flex;flex-flow:row-wrap;">
 <img src="https://res.cloudinary.com/palsuasli/image/upload/v1563338856/Project/VoltmeterGlasses/IMG_20180727_083620.jpg" width="200" height="100%"/>
 
 <img src="https://res.cloudinary.com/palsuasli/image/upload/v1563338868/Project/VoltmeterGlasses/IMG_20180727_184319.jpg" width="200" height="100%"/>
@@ -33,7 +35,7 @@ Here is some picture of package.
 <img src="https://res.cloudinary.com/palsuasli/image/upload/v1563338895/Project/VoltmeterGlasses/IMG_20180727_185204_HHT.jpg" width="200" height="100%"/>
 
 * Glasses
-
+<div style="display:flex;flex-flow:row-wrap;">
 <img src="https://res.cloudinary.com/palsuasli/image/upload/v1563338832/Project/VoltmeterGlasses/IMG_20180727_083530.jpg" width="200" height="100%"/>
 
 <img src="https://res.cloudinary.com/palsuasli/image/upload/v1563338876/Project/VoltmeterGlasses/IMG_20180727_184414.jpg" width="200" height="100%"/>
